@@ -1099,3 +1099,17 @@ a:hover {
     max-height: 48px;
   }
 }
+.client-logo-item img {
+  max-width: 180px;
+  max-height: 80px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+.client-logos-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 50px 40px;
+  align-items: center;
+  margin-top: 30px;
+}
